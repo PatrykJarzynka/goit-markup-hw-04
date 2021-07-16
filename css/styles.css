@@ -138,9 +138,12 @@ text-decoration: none;
 .contact-link:hover,
 .contact-link:focus,
 .address-link-contact:hover,
-.address-link-contact:focus{
-    color:var(--secondary-color)
+.address-link-contact:focus
+{
+    color:var(--secondary-color);
+    fill:var(--secondary-color);
 }
+
 
 .contact-link{
 font-weight: 500;
