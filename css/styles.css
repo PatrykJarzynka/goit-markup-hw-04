@@ -166,6 +166,7 @@ text-decoration: none;
 
 .hero-up{
     background-color: var(--footer-bg-color);
+    background-image: url("/images/index-bg.jpg");
 }
 
 .hero-up .container{
