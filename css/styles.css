@@ -174,7 +174,18 @@ text-decoration: none;
 }
 
 .hero-up .container{
-    padding-bottom: 200px;
+    padding-bottom:200px;
+}
+
+.icon-container{
+    width:270px;
+    height:120px;
+    background-color:#F5F4FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-bottom: 30px;
 }
 
  .hero-down .container{
@@ -182,7 +193,6 @@ text-decoration: none;
     margin-top: 94px;
     padding-bottom: 0;
 }
-
 
 .first-header{
 font-weight: 900;
