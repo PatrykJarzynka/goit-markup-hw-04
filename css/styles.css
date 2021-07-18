@@ -360,7 +360,14 @@ border-radius: 0px 0px 4px 4px;
 
 /*======== CLIETNS ========*/
 
-
+.clients-container{
+    width:170px;
+    height:92px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #AFB1B8;
+    border-radius: 4px;
+}
 
 /*======== END CLIENTS ========*/
 
