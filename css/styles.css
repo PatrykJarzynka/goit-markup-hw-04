@@ -304,7 +304,7 @@ color:var(--forth-color)
 
 .employees-list-wrapper .employees-job{
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 16px;
 }
 
 .employees-list-wrapper{
@@ -315,13 +315,37 @@ border-radius: 0px 0px 4px 4px;
 
 .employees-social-list{
     display:flex;
+    padding-bottom: 30px;
 }
 
-.employees-social-item:first-child{
+.employees-social{
+    width:20px;
+    height:20px;
+}
+
+.employees-social-link{
+    width:44px;
+    height:44px;
+    display: block;
+}
+
+.employees-social-link:first-child{
     margin-left: 32px;
 }
 
-.employees-social-item:nth-child(2)
+
+.employees-social-link{
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.employees-social-link:hover,
+.employees-social-link:focus{
+    background-color:var(--secondary-color);
+}
+
 /*======== END EMPLOYEES ========*/
 
 /*======== FILTERS ========*/
