@@ -321,6 +321,7 @@ border-radius: 0px 0px 4px 4px;
 .employees-social{
     width:20px;
     height:20px;
+    fill:#AFB1B8;
 }
 
 .employees-social-link{
@@ -329,8 +330,8 @@ border-radius: 0px 0px 4px 4px;
     display: block;
 }
 
-.employees-social-link:first-child{
-    margin-left: 32px;
+.employees-social-item:first-child{
+    margin-left: 30px;
 }
 
 
@@ -339,11 +340,20 @@ border-radius: 0px 0px 4px 4px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
 }
 
 .employees-social-link:hover,
 .employees-social-link:focus{
     background-color:var(--secondary-color);
+}
+
+
+.employees-social-link:hover .employees-social,
+.employees-social-link:focus .employees-social
+{
+    background-color:var(--secondary-color);
+    fill:var(--third-color);
 }
 
 /*======== END EMPLOYEES ========*/
