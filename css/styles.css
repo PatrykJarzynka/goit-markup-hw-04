@@ -57,6 +57,8 @@ width: 1600px;
 margin-left: auto;
 margin-right: auto;
 }
+
+
 /*======== COMPONENTS ========*/
 
 .logo-color{
@@ -77,6 +79,34 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.667;
 letter-spacing: 0.03em;
+}
+
+.social-icon{
+    width:20px;
+    height:20px;
+}
+
+.social-link{
+    width:44px;
+    height:44px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.social-link:hover,
+.social-link:focus{
+    background-color:var(--secondary-color);
+}
+
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon
+{
+    background-color:var(--secondary-color);
+    fill:var(--third-color);
 }
 
 /*======== END COMPONENTS ========*/
@@ -318,43 +348,15 @@ border-radius: 0px 0px 4px 4px;
     padding-bottom: 30px;
 }
 
-.employees-social{
-    width:20px;
-    height:20px;
+.employees .social-icon{
     fill:#AFB1B8;
 }
 
-.employees-social-link{
-    width:44px;
-    height:44px;
-    display: block;
-}
 
 .employees-social-item:first-child{
     margin-left: 30px;
 }
 
-
-.employees-social-link{
-    margin-right: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-}
-
-.employees-social-link:hover,
-.employees-social-link:focus{
-    background-color:var(--secondary-color);
-}
-
-
-.employees-social-link:hover .employees-social,
-.employees-social-link:focus .employees-social
-{
-    background-color:var(--secondary-color);
-    fill:var(--third-color);
-}
 
 /*======== END EMPLOYEES ========*/
 
@@ -502,6 +504,15 @@ text-decoration: none;
 
 .address-item:first-child{
     margin-top: 20px;
+}
+
+.footer .third-header{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--third-color);
 }
 
 /*======== END FOOTER ========*/
