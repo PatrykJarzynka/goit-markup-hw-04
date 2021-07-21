@@ -61,6 +61,8 @@ margin-right: auto;
 
 /*======== COMPONENTS ========*/
 
+
+
 .logo-color{
     color:var(--secondary-color);
 }
@@ -161,6 +163,10 @@ line-height: 1.143;
 letter-spacing: 0.02em;
 color:var(--main-color);
 text-decoration: none;
+}
+
+.current{
+    color:var(--secondary-color);
 }
 
 .navigation-link:hover,
